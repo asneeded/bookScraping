@@ -1,8 +1,12 @@
 
 import re
+import logging
 
 #import local
 from locators.book_locator import BookLocator
+
+
+logger = logging.getLogger('scraping.books')
 
 
 class BookParser:
